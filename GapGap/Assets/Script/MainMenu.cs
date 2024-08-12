@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
     {
         transition.SetTrigger("End");
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         transition.SetTrigger("Start");
     }
 
