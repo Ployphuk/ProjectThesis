@@ -378,6 +378,7 @@
 -analyzer:"D:/File_Program/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/AttachCheck.cs"
 "Assets/BackToDialogue.cs"
+"Assets/ChangeScence.cs"
 "Assets/DialogueEditor/Assets/Scripts/Condition.cs"
 "Assets/DialogueEditor/Assets/Scripts/Connection.cs"
 "Assets/DialogueEditor/Assets/Scripts/Conversation.cs"

@@ -85,6 +85,7 @@
     <Compile Include="Assets\StartCenversation1.cs" />
     <Compile Include="Assets\Script\InteractButton.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
+    <Compile Include="Assets\ChangeScence.cs" />
     <Compile Include="Assets\UiEventManager.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
