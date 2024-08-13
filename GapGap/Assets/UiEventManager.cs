@@ -5,9 +5,11 @@ using UnityEngine;
 public class UiEventManager : MonoBehaviour
 {
     [SerializeField] GameObject tutorialsUi;
-    
-    public void EnableTutorialUi()
+
+    public void Activate()
     {
+
+        Debug.Log("Enable Ui");
         tutorialsUi.SetActive(true);
     }
 }

@@ -6,7 +6,7 @@ public class StartCenversation1 : MonoBehaviour
 {
     [SerializeField] GameObject Tutorials;
 
-    private void OnEnable()
+    public void OnEnable()
     {
         Tutorials.SetActive(true);
     }

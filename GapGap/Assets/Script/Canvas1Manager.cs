@@ -8,7 +8,7 @@ public class Canvas1Manager : MonoBehaviour
  
     // Start is called before the first frame update
 
-    private void OnEnable()
+    public void OnEnable()
     {
         CutScene1.SetActive(false);
     }

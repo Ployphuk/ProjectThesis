@@ -5,7 +5,7 @@ using DialogueEditor;
 
 public class StartTutorialsDialogue : MonoBehaviour
 {
-    [SerializeField] private NPCConversation npcConversation;
+    [SerializeField] public NPCConversation npcConversation;
     public void Start()
     {
         Debug.Log("Conversations start");

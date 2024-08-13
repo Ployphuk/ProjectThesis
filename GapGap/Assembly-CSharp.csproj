@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
+    <Compile Include="Assets\BackToDialogue.cs" />
     <Compile Include="Assets\TutorialUiEnable.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
     <Compile Include="Assets\TestPoint.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
+    <Compile Include="Assets\AttachCheck.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
     <Compile Include="Assets\Script\Canvas1Manager.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
