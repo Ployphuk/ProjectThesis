@@ -401,6 +401,7 @@
 "Assets/StartCenversation1.cs"
 "Assets/StartTutorialsDialogue.cs"
 "Assets/TestPoint.cs"
+"Assets/TutorialUiEnable.cs"
 "Assets/UiEventManager.cs"
 -langversion:9.0
 
