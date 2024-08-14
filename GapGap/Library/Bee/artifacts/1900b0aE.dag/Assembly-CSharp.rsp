@@ -393,6 +393,8 @@
 "Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs"
 "Assets/DialogueEditor/Assets/Scripts/UI/UIConversationButton.cs"
 "Assets/DialogueEditor/Example/ExampleInputManager.cs"
+"Assets/LoopBg.cs"
+"Assets/MoveChoicePosition.cs"
 "Assets/Script/AttachCheck.cs"
 "Assets/Script/BackToDialogue.cs"
 "Assets/Script/Canvas1Manager.cs"

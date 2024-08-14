@@ -72,6 +72,7 @@
     <Compile Include="Assets\Script\AttachCheck.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
+    <Compile Include="Assets\LoopBg.cs" />
     <Compile Include="Assets\Script\BackToDialogue.cs" />
     <Compile Include="Assets\Script\ChangeScence.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\Script\Canvas1Manager.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
     <Compile Include="Assets\Script\InteractButton.cs" />
+    <Compile Include="Assets\MoveChoicePosition.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
     <Compile Include="Assets\Script\TestPoint.cs" />
     <Compile Include="Assets\Script\TutorialUiEnable.cs" />
