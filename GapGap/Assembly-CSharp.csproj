@@ -60,6 +60,7 @@
     <Analyzer Include="D:\File_Program\2022.3.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CallDialogurByButton.cs" />
     <Compile Include="Assets\Script\DialogueCallSript\StartDialouge.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\Script\AttachCheck.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
+    <Compile Include="Assets\AddPoint.cs" />
     <Compile Include="Assets\LoopBg.cs" />
     <Compile Include="Assets\Script\DialogueCallSript\TutorialUiEnable.cs" />
     <Compile Include="Assets\Script\DialogueCallSript\UiEventManager.cs" />
@@ -86,9 +88,10 @@
     <Compile Include="Assets\Script\Canvas1Manager.cs" />
     <Compile Include="Assets\Script\DialogueCallSript\StartTutorialsDialogue.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
+    <Compile Include="Assets\FadeAnimControl.cs" />
     <Compile Include="Assets\Script\InteractButton.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
-    <Compile Include="Assets\Script\TestPoint.cs" />
+    <Compile Include="Assets\Script\PointSystem\TestPoint.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
