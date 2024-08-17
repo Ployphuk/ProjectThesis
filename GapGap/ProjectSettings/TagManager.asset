@@ -50,3 +50,6 @@ TagManager:
   - name: Player
     uniqueID: 831152529
     locked: 0
+  - name: furniture
+    uniqueID: 2451555565
+    locked: 0
