@@ -4,12 +4,27 @@ using UnityEngine;
 
 public class AddPoint : MonoBehaviour
 {
-    public int points = 0; // Variable to store the points
+    public int points = 0; // Points to add per click
+    public int totalPoints = 0; // Cumulative total points
+    public UiPointManager uiPointManager; // Reference to UIManager
 
-    // Function to increase points
+    void Start()
+    {
+        Debug.Log("Initial Points Value: " + points);
+    }
+
     public void PlusPoint()
     {
-        points += 1;
-        Debug.Log("Points: " + points);
+        totalPoints += points; // Add points to totalPoints
+        Debug.Log("Total Points: " + totalPoints);
+
+        if (uiPointManager != null)
+        {
+            uiPointManager.UpdatePointsDisplay(); // Update the UI
+        }
+        else
+        {
+            Debug.LogError("UIManager reference is missing.");
+        }
     }
 }

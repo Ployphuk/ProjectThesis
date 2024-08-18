@@ -399,8 +399,6 @@
 "Assets/DisableNpc.cs"
 "Assets/FadeAnimControl.cs"
 "Assets/LoopBg.cs"
-"Assets/RotateGameManager.cs"
-"Assets/RotateOnClick.cs"
 "Assets/Script/AttachCheck.cs"
 "Assets/Script/Canvas1Manager.cs"
 "Assets/Script/DialogueCallSript/BackToDialogue.cs"
@@ -414,9 +412,12 @@
 "Assets/Script/InteractButton.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/Minigame/CircleClickManager.cs"
+"Assets/Script/Minigame/RotateGameManager.cs"
+"Assets/Script/Minigame/RotateOnClick.cs"
 "Assets/Script/Minigame/SpawnCircle.cs"
 "Assets/Script/PlayerMovement.cs"
 "Assets/Script/PointSystem/TestPoint.cs"
+"Assets/UiPointManager.cs"
 -langversion:9.0
 
 /deterministic
