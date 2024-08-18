@@ -57,12 +57,16 @@ public class CircleClickManager : MonoBehaviour
         }
     }
 
-    void SpawnNewCircle()
+    public void SpawnNewCircle()
     {
-        currentCircle = spawnCircle.CircleSpawner();
+        if (currentCircle != null)
+        {
+            Destroy(currentCircle);
+        }
 
-        // Add the click event to the new circle
+        currentCircle = spawnCircle.CircleSpawner();
         Button circleButton = currentCircle.GetComponent<Button>();
+        circleButton.onClick.RemoveAllListeners(); // Remove any previous listeners
         circleButton.onClick.AddListener(CircleClicked);
     }
 

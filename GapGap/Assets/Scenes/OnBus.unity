@@ -3005,6 +3005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   circlePrefab: {fileID: 6722491863189724130, guid: a1231d49c398604459c0ba40b6bd376d, type: 3}
   canvasRect: {fileID: 1112040807}
+  circleLifetime: 5
 --- !u!114 &1112040803
 MonoBehaviour:
   m_ObjectHideFlags: 0

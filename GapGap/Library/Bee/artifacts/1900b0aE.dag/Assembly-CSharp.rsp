@@ -379,7 +379,6 @@
 "Assets/ActivateNpc.cs"
 "Assets/AddPoint.cs"
 "Assets/CallDialogurByButton.cs"
-"Assets/CircleClickManager.cs"
 "Assets/DialogueEditor/Assets/Scripts/Condition.cs"
 "Assets/DialogueEditor/Assets/Scripts/Connection.cs"
 "Assets/DialogueEditor/Assets/Scripts/Conversation.cs"
@@ -414,9 +413,10 @@
 "Assets/Script/DialogueCallSript/UiEventManager.cs"
 "Assets/Script/InteractButton.cs"
 "Assets/Script/MainMenu.cs"
+"Assets/Script/Minigame/CircleClickManager.cs"
+"Assets/Script/Minigame/SpawnCircle.cs"
 "Assets/Script/PlayerMovement.cs"
 "Assets/Script/PointSystem/TestPoint.cs"
-"Assets/SpawnCircle.cs"
 -langversion:9.0
 
 /deterministic

@@ -6,10 +6,11 @@ public class SpawnCircle : MonoBehaviour
 {
     public GameObject circlePrefab;
     public RectTransform canvasRect;
+    public float circleLifetime = 10f; // Time in seconds before the circle is destroyed
+
 
     public GameObject CircleSpawner()
     {
-        // Calculate the size of the circle
         RectTransform circleRect = circlePrefab.GetComponent<RectTransform>();
         Vector2 circleSize = circleRect.sizeDelta;
 
@@ -27,6 +28,25 @@ public class SpawnCircle : MonoBehaviour
         GameObject newCircle = Instantiate(circlePrefab, canvasRect);
         newCircle.GetComponent<RectTransform>().anchoredPosition = randomPosition;
 
+        // Start a coroutine to destroy the circle after a set time
+        StartCoroutine(DestroyAfterTime(newCircle, circleLifetime));
+
         return newCircle;
     }
+
+    private System.Collections.IEnumerator DestroyAfterTime(GameObject circle, float time)
+    {
+        yield return new WaitForSeconds(time);
+        if (circle != null)
+        {
+            Destroy(circle);
+            // Notify the GameManager to spawn a new circle
+            CircleClickManager circleClickManager = FindObjectOfType<CircleClickManager>();
+            if (circleClickManager != null)
+            {
+                circleClickManager.SpawnNewCircle(); // Ensure GameManager spawns a new circle
+            }
+        }
+    }
+
 }
