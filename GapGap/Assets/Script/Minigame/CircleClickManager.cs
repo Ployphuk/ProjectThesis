@@ -13,6 +13,7 @@ public class CircleClickManager : MonoBehaviour
     public GameObject startButton;
     public GameObject gameUI;
     public GameObject gameOverPanel;
+    public GameObject WinUI;
 
     private GameObject currentCircle;
     private bool gameStarted = false;
@@ -70,12 +71,14 @@ public class CircleClickManager : MonoBehaviour
         circleButton.onClick.AddListener(CircleClicked);
     }
 
-    void WinGame()
+    public void WinGame()
     {
-        Debug.Log("You Win!");
-        // Add win logic here (e.g., show a win screen)
+        Debug.Log("Win");
+
         gameOverPanel.SetActive(true);
-        gameUI.SetActive(false);
+        Debug.Log("gameOverPanel Active Status: " + gameOverPanel.activeSelf);
+
+        //gameUI.SetActive(false);
         gameStarted = false;
     }
 }

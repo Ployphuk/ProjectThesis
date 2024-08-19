@@ -5,12 +5,14 @@ using UnityEngine;
 public class RotateGameManager : MonoBehaviour
 {
     public RotateOnClick[] rotatingPictures;
+    public GameObject WinUI;
 
     void Update()
     {
         if (CheckAllPicturesCorrect())
         {
             Debug.Log("You Win!");
+            WinUI.SetActive(true);
         }
     }
 
