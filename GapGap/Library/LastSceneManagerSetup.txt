@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/case2/House2.unity
+- path: Assets/Scenes/case3/Bus.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
